@@ -1,0 +1,24 @@
+@import url("../vendor/normalize.css");
+@import url("../blocks/page/page.css");
+@import url("../blocks/logo/logo.css");
+@import url("../blocks/header/header.css");
+@import url("../blocks/lead/lead.css");
+
+@import url("../blocks/intro/");
+@import url("../blocks/gallery/");
+
+@import url("../blocks/");
+
+@import url("../blocks/footer/");
+
+@font-face {
+  font-family: 'Inter';
+  src: url(https://pictures.s3.yandex.net/frontend-developer/responsive/Inter-Regular.woff);
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url(https://pictures.s3.yandex.net/frontend-developer/responsive/Inter-Bold.woff2);
+  font-weight: bold;
+}
