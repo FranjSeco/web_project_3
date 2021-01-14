@@ -1,5 +1,5 @@
 .page {
-  height: 100vh;
+  position: relative;
   margin: 0;
   padding-top: 34px;
   background-color: #2A2C2F;

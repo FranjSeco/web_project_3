@@ -5,10 +5,10 @@
 
 .lead {
   width: 984px;
-  height: 1005px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-content: center;
-  margin: 0 auto;
+  margin: 0 auto 114px;
+  position: relative;
 }
