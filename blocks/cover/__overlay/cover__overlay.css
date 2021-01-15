@@ -7,3 +7,7 @@
   align-items: center;
   flex-direction: column;
 }
+
+.cover__overlay:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
