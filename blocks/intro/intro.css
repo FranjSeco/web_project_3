@@ -3,12 +3,12 @@
 @import url("./__text/intro__text.css");
 @import url("./__title/intro__title.css");
 @import url("./__list/intro__list.css");
+@import url("./__span/intro__span.css");
 
 .intro {
   width: 984px;
   height: 569px;
   margin: 0 auto 92px auto;
   text-align: left;
-  font-family: 'Inter';
   color: #FFFFFF;
 }

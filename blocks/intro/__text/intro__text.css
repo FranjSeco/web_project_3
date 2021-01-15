@@ -1,2 +1,9 @@
 @import url("./_main/intro__text_main.css");
 @import url("./_sub/intro__text_sub.css");
+
+
+.intro__text {
+  width: 690px;
+  font-style: normal;
+  font-weight: normal;
+}
