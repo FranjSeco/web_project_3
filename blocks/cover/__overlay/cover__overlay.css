@@ -1,0 +1,9 @@
+.cover__overlay {
+  display: flex;
+  max-width: 1184px;
+  min-height: 740px;
+  background-color: rgba(0, 0, 0, 0.3);
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

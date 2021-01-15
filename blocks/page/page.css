@@ -1,7 +1,8 @@
 .page {
   position: relative;
   margin: 0;
-  padding-top: 34px;
+  padding: 34px 0 24px 0;
   background-color: #2A2C2F;
   box-sizing: border-box;
+  font-family: 'Inter';
 }

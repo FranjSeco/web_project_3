@@ -4,21 +4,26 @@
 @import url("../blocks/header/header.css");
 @import url("../blocks/lead/lead.css");
 
-@import url("../blocks/intro/");
-@import url("../blocks/gallery/");
+@import url("../blocks/intro/intro.css");
+@import url("../blocks/photo-grid/photo-grid.css");
 
-@import url("../blocks/");
+@import url("../blocks/places/places.css");
+@import url("../blocks/place/place.css");
+@import url("../blocks/cover/cover.css");
+@import url("../blocks/footer/footer.css");
 
-@import url("../blocks/footer/");
 
-@font-face {
+@import url("");
+
+
+/* @font-face {
   font-family: 'Inter';
-  src: url(https://pictures.s3.yandex.net/frontend-developer/responsive/Inter-Regular.woff);
+  src: url(https://pictures.s3.yandex.net/frontend-developer/responsive/Inter-Regular.woff) format('woff');
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'Inter';
-  src: url(https://pictures.s3.yandex.net/frontend-developer/responsive/Inter-Bold.woff2);
+  src: url(https://pictures.s3.yandex.net/frontend-developer/responsive/Inter-Bold.woff2) format('woff2');
   font-weight: bold;
-}
+} */
