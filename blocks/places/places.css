@@ -3,3 +3,24 @@
   height: 3434px;
   margin: 92px auto;
 }
+
+@media screen and (max-width: 1024px) {
+  .places {
+    width: 928px;
+    height: 3432px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places {
+    width: 720px;
+    height: 3146px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .places {
+    width: 320px;
+    height: 5171px;
+  }
+}

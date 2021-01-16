@@ -5,5 +5,19 @@
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
-  color: #FFFFFF;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .place__title {
+    font-size: 46px;
+    line-height: 46px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    font-size: 32px;
+    line-height: 35px;
+  }
 }
