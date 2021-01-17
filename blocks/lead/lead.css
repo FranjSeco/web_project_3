@@ -9,7 +9,7 @@
   flex-direction: column;
   justify-content: flex-start;
   align-content: center;
-  margin: 0 auto 92px;
+  margin: 0 auto 92px ;
   position: relative;
 }
 
@@ -29,6 +29,6 @@
 @media screen and (max-width: 320px) {
   .lead {
     max-width: 320px;
-    margin: 0 auto 64px;
+    margin: 0 0 64px 0;
   }
 }

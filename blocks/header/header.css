@@ -28,6 +28,6 @@
   .header {
     min-width: 288px;
     min-height: 36px;
-    margin: 0 auto 50px;
+    margin: 0 16px 50px 16px;
   }
 }

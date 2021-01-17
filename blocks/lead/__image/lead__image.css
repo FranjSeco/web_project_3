@@ -5,7 +5,7 @@
   width: 100%;
   height: 615px;
   margin: 64px auto 0 auto;
-  object-fit: contain;
+  object-fit: center;
 }
 
 
@@ -27,6 +27,6 @@
   .lead__image {
     width: 320px;
     height: 200px;
-    margin: 40px auto 0 auto;
+    margin: 40px 0 0 0;
   }
 }

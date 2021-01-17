@@ -1,11 +1,13 @@
 .page {
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   position: relative;
   margin: 0;
   padding: 34px 0 24px 0;
   background-color: #2a2c2f;
   box-sizing: border-box;
-  /* overflow-y: hidden; */
+  overflow-y: hidden;
+
+
 
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -15,4 +17,10 @@
   -moz-text-size-adjust: 100%;
 
   text-rendering: optimizeLegibility;
+}
+
+@media screen and (max-width: 320px) {
+  .page {
+    padding-top: 20px;
+  }
 }
