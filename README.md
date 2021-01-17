@@ -1,20 +1,13 @@
 # Project 3: From Portland to Portland
 
-### Overview
-* Intro
-* Figma
-* Images
+## Description.
 
-**Intro**
+### Single website page that offers information about a trip from coast to coast in the USA.
 
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+## Technologies used.
 
-**Figma**
+### I have used HTML and CSS (Flexbox, Grid and Media Queries) to build this project. The file structure follows the BEM methodology.
 
-* [Link to the project on Figma](https://www.figma.com/file/xM9rNsdK4iNcFJmDZho3Aw/Sprint-3%3A-From-Portland-to-Portland-%2F-desktop-%2B-mobile?node-id=500%3A0)
+## Plans for the future.
 
-**Images**
-
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-
-Good luck and have fun!
+### The responsiveness might need some adjustment in order to fix breakpoints. In the future, once we learn JavaScript, we could add some functonality to the nav bar in order to give the option of choosing the language.
