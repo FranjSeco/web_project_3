@@ -6,13 +6,12 @@
 @import url("./__url-heading/place__url-heading.css");
 
 .place {
-  width: 984px;
+  max-width: 984px;
   margin: 0 0 80px 0;
   display: grid;
-  grid-template-columns: 460px 484px;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  grid-gap: 40px;
-  overflow: hidden;
+  /* grid-gap: 40px; */
 }
 .place:last-child {
   margin-bottom: 0;
@@ -20,18 +19,14 @@
 
 @media screen and (max-width: 1024px) {
   .place {
-    width: 928px;
-    grid-template-columns: 440px 456px;
-    grid-gap: 32px;
+    max-width: 928px;
     margin: 0 0 80px 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
-    width: 720px;
-    grid-template-columns: 340px 352px;
-    grid-gap: 28px;
+    max-width: 720px;
     margin: 0 0 73px 0;
   }
 
@@ -39,10 +34,9 @@
 
 @media screen and (max-width: 320px) {
   .place {
-    width: 320px;
+    max-width: 320px;
     grid-template-columns: 1fr;
     grid-template-rows: 1;
-    grid-gap: 0;
     margin: 0 0 49px 0;
   }
 }
