@@ -10,5 +10,8 @@
   .logo {
     width: 156px;
     height: 36px;
+    margin: 0;
+    position: absolute;
+    left: 0;
   }
 }

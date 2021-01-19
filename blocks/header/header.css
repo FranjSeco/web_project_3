@@ -26,8 +26,9 @@
 
 @media screen and (max-width: 320px) {
   .header {
-    min-width: 288px;
+    max-width: 320px;
     min-height: 36px;
     margin: 0 16px 50px 16px;
+    position: relative;
   }
 }
