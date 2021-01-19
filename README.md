@@ -6,7 +6,7 @@
 
 ## Technologies used.
 
-### I have used HTML and CSS (Flexbox, Grid and Media Queries) to build this project. The file structure follows the BEM methodology.
+### I have used HTML and CSS (Flexbox, Grid and Media Queries) to build this project. The file structure follows the BEM methodology. The specs have been provided through Figma.
 
 ## Plans for the future.
 
