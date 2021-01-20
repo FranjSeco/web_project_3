@@ -1,0 +1,28 @@
+.place__cell-text {
+  grid-area: text;
+  max-width: calc(984px - 460px - 40px);
+}
+
+@media screen and (max-width: 1024px) {
+  .place__cell-text {
+    max-width: calc(928px - 440px - 32px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__cell-text {
+    max-width: calc(720px - 340px - 28px);
+  }
+}
+@media screen and (max-width: 500px) {
+  .place__cell-text {
+    margin: 0 auto;
+    padding: 0 2rem;
+  }
+}
+@media screen and (max-width: 320px) {
+  .place__cell-text {
+    padding: 0;
+    max-width: 320px;
+  }
+}

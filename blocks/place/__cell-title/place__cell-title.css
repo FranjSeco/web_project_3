@@ -1,0 +1,6 @@
+.place__cell-title {
+  grid-area: title;
+  max-width: 460px;
+  max-height: 152px;
+}
+

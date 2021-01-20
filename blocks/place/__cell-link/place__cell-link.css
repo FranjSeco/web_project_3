@@ -1,0 +1,15 @@
+.place__cell-link {
+  grid-area: link;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  max-width: calc(984px - 460px - 40px);
+}
+
+@media screen and (max-width: 320px) {
+  .place__cell-link {
+    grid-area: none;
+    display: none;
+  }
+}
+
