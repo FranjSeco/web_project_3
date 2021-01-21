@@ -1,4 +1,38 @@
 .place__image {
+  grid-area: image;
+  box-sizing: border-box;
   width: 100%;
+  max-width: 460px;
 }
 
+@media screen and (max-width: 1024px) {
+  .place__image {
+    max-width: 440px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place__image {
+    max-width: 340px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .place__image {
+    max-width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 500px) {
+  .place__image {
+    padding: 1.5rem;
+  }
+}
+
+
+
+@media screen and (max-width: 320px) {
+  .place__image {
+    padding: 0;
+  }
+}

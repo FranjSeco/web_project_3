@@ -2,10 +2,14 @@
   margin: 0;
 }
 
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 460px) {
   .footer__nav {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    align-self: flex-start;
+    max-width: 320px;
+    margin: 0;
   }
 }
+

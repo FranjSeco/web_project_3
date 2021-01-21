@@ -20,6 +20,10 @@
   align-content: center;
 }
 
+.cover:hover .cover__overlay {
+  background-color: #292b2e;
+  opacity: 0.8;
+}
 
 @media screen and (max-width: 1024px) {
   .cover {
@@ -35,7 +39,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 460px) {
   .cover {
     min-height: 200px;
     margin: 65px 0;

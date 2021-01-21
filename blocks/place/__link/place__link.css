@@ -1,5 +1,4 @@
 .place__link {
-  max-width: 456px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -12,8 +11,3 @@
   opacity: 0.8;
 }
 
-@media screen and (max-width: 500px) {
-  .place__link {
-    display: none;
-  }
-}
