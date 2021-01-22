@@ -12,6 +12,11 @@
   left: 0;
 }
 
+.cover:hover .cover__overlay {
+  background-color: #292b2e;
+  opacity: 0.8;
+}
+
 @media screen and (max-width: 1024px) {
   .cover__overlay {
     max-height: 640px;

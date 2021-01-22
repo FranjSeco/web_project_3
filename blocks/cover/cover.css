@@ -3,7 +3,6 @@
 @import url("./__subtitle/cover__subtitle.css");
 @import url("./__title/cover__title.css");
 
-
 .cover {
   max-width: 1184px;
   min-height: 740px;
@@ -18,11 +17,6 @@
   flex-direction: column;
   justify-content: center;
   align-content: center;
-}
-
-.cover:hover .cover__overlay {
-  background-color: #292b2e;
-  opacity: 0.8;
 }
 
 @media screen and (max-width: 1024px) {
